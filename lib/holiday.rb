@@ -54,6 +54,7 @@ def all_winter_holiday_supplies(holiday_hash)
   winter_hash.each{|key, value|
      value.each {|item| new_array << item}}
     return new_array
+  end 
 
 end
 
@@ -77,6 +78,7 @@ end
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
+  holiday_array= []
 
 end
 
